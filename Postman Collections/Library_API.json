@@ -69,15 +69,14 @@
 							],
 							"query": [
 								{
+									"key": "genre",
+									"value": "fiction"
+								},
+								{
 									"key": "checkedOut",
 									"value": "false",
 									"description": "true/false",
 									"disabled": true
-								},
-								{
-									"key": "genre",
-									"value": "fiction",
-									"description": "filter by genre (case-insensitive, exact match)"
 								}
 							]
 						},
