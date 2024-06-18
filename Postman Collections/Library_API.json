@@ -301,7 +301,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"The Way the Cookies Crumble\",\n    \"author\": \"Gabriel García Márquez\",\n    \"genre\": \"fiction\",\n    \"yearPublished\": 1975\n}\n\n",
+							"raw": "{\n    \"title\": \"The Way the Cookies Crumble\",\n    \"author\": \"Gabriel García Márquez\",\n    \"genre\": \"fiction\",\n    \"yearPublished\": 1980\n}\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -402,7 +402,7 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/books/drWEMS8d4TVmdo5",
+						"url": "{{baseUrl}}/books/LQwd7bXgxGj1bHY",
 						"description": "### Update a book by id\n\nUpdate any of these fields for a book with given `id` via the JSON body: \n\n- `title` (string)\n- `author` (string)\n- `genre` (string)\n- `yearPublished` (integer)\n- `checkedOut` (boolean)\n\n> Note: **Only user-added books can be edited**. Some books are part of the library's canonical collection and cannot be edited."
 					},
 					"response": [
