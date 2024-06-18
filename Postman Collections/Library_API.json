@@ -69,15 +69,14 @@
 							],
 							"query": [
 								{
+									"key": "genre",
+									"value": "fiction"
+								},
+								{
 									"key": "checkedOut",
 									"value": "false",
 									"description": "true/false",
 									"disabled": true
-								},
-								{
-									"key": "genre",
-									"value": "fiction",
-									"description": "filter by genre (case-insensitive, exact match)"
 								}
 							]
 						},
@@ -167,9 +166,9 @@
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Book author is 'Gabriel García Márquez'\", function () {\r",
+									"pm.test(\"Book author is 'Fyodor Dostoyevsky'\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
-									"    pm.expect(jsonData.author).to.eql(\"Gabriel García Márquez\");\r",
+									"    pm.expect(jsonData.author).to.eql(\"Fyodor Dostoyevsky\");\r",
 									"});\r",
 									""
 								],
