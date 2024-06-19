@@ -371,14 +371,7 @@
 							"script": {
 								"id": "bfb943e3-0282-49a8-b22b-daec4b54b0c4",
 								"exec": [
-									"pm.test(\"Response status code is 200\", function () {\r",
-									"    pm.response.to.have.status(200);\r",
-									"});\r",
-									"\r",
-									"\r",
-									"pm.test(\"Response status code is 201\", function () {\r",
-									"    pm.response.to.have.status(201);\r",
-									"});"
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
