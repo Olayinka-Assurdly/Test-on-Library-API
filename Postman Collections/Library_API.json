@@ -60,7 +60,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/books?genre=fiction",
+							"raw": "{{baseUrl}}/books?genre=fiction&checkedOut=false",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -75,8 +75,7 @@
 								{
 									"key": "checkedOut",
 									"value": "false",
-									"description": "true/false",
-									"disabled": true
+									"description": "true/false"
 								}
 							]
 						},
