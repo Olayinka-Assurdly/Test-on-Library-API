@@ -59,26 +59,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{baseUrl}}/books?genre=fiction&checkedOut=false",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"books"
-							],
-							"query": [
-								{
-									"key": "genre",
-									"value": "fiction"
-								},
-								{
-									"key": "checkedOut",
-									"value": "false",
-									"description": "true/false"
-								}
-							]
-						},
+						"url": "{{baseUrl}}/books",
 						"description": "Returns all books in the library database. \n\nOptional filters can be passed as query parameters."
 					},
 					"response": [
